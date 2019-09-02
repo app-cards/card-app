@@ -16,10 +16,10 @@
     </dependency>
   </dependencies>
   <distributionManagement>
-    <snapshotRepository>
+     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-31-48-snapshots</name>
-        <url>http://172.31.31.48:8081/artifactory/libs-snapshot-local</url>
+        <url>http://172.31.31.48:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
     <repository>
         <id>central</id>
