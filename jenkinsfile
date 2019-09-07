@@ -3,7 +3,7 @@ node('maven-label') {
    def mvnHome
    stage('Preparation') {
       
-      git branch: '$branch', url: 'https://github.com/app-cards/card-app.git'
+      git 'https://github.com/app-cards/card-app.git'
                
       mvnHome = tool 'maven-3.6.1'
    }
